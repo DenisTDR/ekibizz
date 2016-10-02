@@ -1,0 +1,1 @@
+<div class="info"><h2 style="text-align:center"><?php eTR("error_404"); ?></h2></div>

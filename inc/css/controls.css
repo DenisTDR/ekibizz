@@ -1,0 +1,162 @@
+.form{
+    margin:0 auto;
+}
+.form input[type=text], .form input[type=password], .form select, .form textarea{
+    background: #fff;
+    font-size:1.3em;
+    color:#555;
+    border:1px solid #aaa;
+    border-radius: 2px;
+    padding:3px;
+}
+.form input[type=text]:disabled, .form input[type=password]:disabled, .form select:disabled, .form textarea:disabled{
+    background:#ccc;
+}
+.form input[type=button], .form input[type=submit]{
+    background: #427FED;
+    font-size:1.2em;
+    color:#eee;
+    border:0px solid #888;
+    border-radius: 3px;
+    padding:5px;
+    cursor:pointer;
+    margin:1px;
+}
+.form input[type=button]:disabled, .form input[type=submit]:disabled{
+    background:#888;
+    cursor:default;
+}
+.form input[type=button]:disabled:hover, .form input[type=submit]:disabled:hover{
+    background:#888;
+}
+.form input[type=button]:hover, .form input[type=submit]:hover{
+    background: #236CEA;
+}
+.form input[type=button].refresh{
+    background: url("../../images/refresh.png");
+    background-size: 35px 35px;
+    width:35px;
+    height:35px;
+    border:0;
+}
+.translator input[type=text], textarea, label{
+    font-size:1.1em;
+}
+textarea{
+    padding:5px;
+}
+div.success, div.warning, div.error, div.loading, div.info{
+    border-radius: 2px;
+    border:1px solid black;
+    display:inline-block;
+    margin:5px;
+    padding:5px 5px 5px 35px;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 2px center;
+    text-align:left;
+    cursor:default;
+}
+div.success{
+    background-image: url("../../images/success1.png");
+    border-color:#2D8225;
+    background-color:rgba(86, 239, 69, 0.5);
+    color:#1A4916;
+}
+div.warning{
+    background-image: url("../../images/warning1.png");
+    border-color:#B57D2F;
+    background-color:rgba(247, 168, 64, 0.5);
+    color:#B57D2F;
+}
+div.error{
+    background-image: url("../../images/error1.png");
+    border-color:#A0282A;
+    background-color:rgba(255, 102, 91, 0.5);
+    color:#A0282A;
+}
+div.loading{
+    background-image: url("../../images/loading1.gif");
+    border-color:#1D5BC6;
+    background-color:rgba(135, 211, 255, 0.5);
+    color:#1D5BC6;
+}
+div.info{
+    background-image: url("../../images/info1.png");
+    border-color:#1D5BC6;
+    background-color:rgba(135, 211, 255, 0.5);
+    color:#1D5BC6;
+}
+div.hidden{
+    display:none;
+}
+div#notificationArea{
+    position:fixed;
+    right:5px;
+    bottom:5px;
+    z-index: 12;
+}
+div#notificationArea .notification{
+    display:block;
+    max-width:25vw;
+    opacity: 0.7;
+    position:relative;
+    padding-right: 25px;
+}
+div#notificationArea .notification:hover{
+    opacity: 1;
+}
+div#notificationArea .notification .notificationTitle{
+    font-weight: bold;
+    font-size:1.1em;
+}
+div#notificationArea .notification .killButton{
+    background: url("../../images/close1.png");
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    right:3px;
+    top:3px;
+    opacity: 0.7;
+    cursor:pointer;
+}
+div#notificationArea .notification .killButton:hover{
+    opacity:1;
+}
+div.editField{
+    position: relative;
+    margin:0 auto;
+    display:inline-block;
+}
+div.editField input.editBtn{
+    background: url("../../images/edit1.png") transparent;
+    background-size:25px 25px;
+    width:25px;
+    height:25px;
+    opacity: 0.5;
+    cursor: pointer;
+    position: absolute;
+    right:3px;
+    top:3px;
+    border: 0;
+}
+div.editField input.editBtn:hover{
+    background: url("../../images/edit1.png") transparent;
+    background-size:25px 25px;
+    opacity: 1;
+}
+div.editField input.doneBtn{
+    background: url("../../images/done1.png") transparent;
+    background-size:25px 25px;
+    width:25px;
+    height:25px;
+    cursor: pointer;
+    opacity: 0.7;
+    border: 0;
+}
+div.editField input.doneBtn:hover{
+    background: url("../../images/done1.png") transparent;
+    background-size:25px 25px;
+    opacity: 1;
+}
