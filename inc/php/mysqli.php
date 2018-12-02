@@ -143,7 +143,7 @@
 			unset($this->pass);
 			unset($this->db);
 			unset($this->core);
-			unset($this);
+			//unset($this);
 		}
 		public function __destruct() {
 			$this->close();
@@ -191,7 +191,7 @@
 			unset($this->crtRowAdd);
 			unset($this->crtRowGet);
 			unset($this->theArray);
-			unset($this);
+			//unset($this);
 		}
 		public function allArrays()
 		{
