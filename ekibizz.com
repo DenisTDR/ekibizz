@@ -3,8 +3,8 @@ server {
 
         listen  80;
 
-        access_log   /var/log/nginx/ekibizz/production-access.log;
-        error_log  /var/log/nginx/ekibizz/production-error.log;
+        access_log   /var/log/nginx/ekibizz/live-access.log;
+        error_log  /var/log/nginx/ekibizz/live-error.log;
 
         client_max_body_size 100M;
 
